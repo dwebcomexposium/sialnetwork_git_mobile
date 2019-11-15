@@ -81,6 +81,9 @@
             var top = block_featured_events.find('.align-right').offset().top;
             if ($('.site-banner').length) {
                 top -= $('.site-banner').outerHeight(false);
+                if (!$('.site-banner').hasClass('is-stuck')) {
+                    top -= $('.site-banner').outerHeight(false);
+                }
             }
             $('body, html').animate({
                 scrollTop: top
