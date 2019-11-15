@@ -80,7 +80,7 @@
         if (scrollToEvent) {
             var top = block_featured_events.find('.align-right').offset().top;
             if ($('.site-banner').length) {
-                top += $('.site-banner').outerHeight(false);
+                top -= $('.site-banner').outerHeight(false);
             }
             $('body, html').animate({
                 scrollTop: top
