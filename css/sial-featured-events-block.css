@@ -1,0 +1,258 @@
+.sial-featured-events_block {
+  margin: 0 auto;
+  background: #F6F6F6;
+  width: 100%;
+  font-family: futura, montserrat, Arial, sans-serif;
+}
+
+.sial-featured-events_block .align-left {
+  background: url("img/sial-featured-events-block-bg.jpg") 0 50% no-repeat #00050a;
+  background-size: contain;
+  padding: 3rem 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.sial-featured-events_block .align-left > * {
+  position: relative;
+  z-index: 2;
+}
+
+.sial-featured-events_block .align-left:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.47);
+  z-index: 1;
+}
+
+.sial-featured-events_block .main-title {
+  color: #FFF;
+  font-weight: 500;
+  font-size: 2.9rem;
+  line-height: 3.8rem;
+  text-transform: uppercase;
+}
+
+.sial-featured-events_block .main-title span {
+  font-weight: 900;
+}
+
+.sial-featured-events_block .events-list {
+  margin: 3rem 0 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+  list-style: none;
+}
+
+.sial-featured-events_block .align-right {
+  padding: 0 2rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sial-featured-events_block p {
+  font-size: 1.6rem;
+}
+
+.sial-featured-events_block .event-country {
+  font-weight: bold;
+  position: relative;
+  padding: 0 0.5rem;
+  color: #548733;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  height: 1.8rem;
+  line-height: 2rem;
+  display: inline-block;
+}
+
+.sial-featured-events_block .event-country span {
+  position: relative;
+  z-index: 2;
+}
+
+.sial-featured-events_block .event-country:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: skewX(-12deg);
+  -ms-transform: skewX(-12deg);
+  transform: skewX(-12deg);
+  background: #fff;
+  z-index: 1;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sial-featured-events_block .is_sial_event .event-country {
+  color: #fff;
+}
+
+.sial-featured-events_block .is_sial_event .event-country:before {
+  background: #548733;
+}
+
+.sial-featured-events_block .event-element {
+  margin: 0 1.5rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.sial-featured-events_block .event-element .event-country {
+  margin-top: 0.5rem;
+}
+
+.sial-featured-events_block .event-element .event-shortname {
+  font-weight: 500;
+  line-height: 2.1rem;
+  color: #FFF;
+}
+
+.sial-featured-events_block .event-element.current {
+  cursor: default;
+}
+
+.sial-featured-events_block .event-element.current .event-country {
+  color: #fff;
+}
+
+.sial-featured-events_block .event-element.current .event-country:before {
+  background: #F42435;
+}
+
+.sial-featured-events_block .countdown {
+  font-weight: 600;
+  color: #F42435;
+}
+
+.sial-featured-events_block .event-highlighted {
+  color: #09060A;
+  display: none;
+  max-width: 100%;
+  padding-top: 3rem;
+}
+
+.sial-featured-events_block .event-highlighted.is-next-show {
+  padding-top: 8rem;
+  position: relative;
+}
+
+.sial-featured-events_block .event-highlighted .next-show {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  background: red;
+  line-height: 2.6rem;
+  color: #fff;
+  padding: 0.8rem;
+}
+
+.sial-featured-events_block .event-highlighted .next-show + p {
+  margin-top: 0;
+}
+
+.sial-featured-events_block .event-highlighted .event-shortname {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.sial-featured-events_block .event-highlighted .event-date {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  margin-top: 0.8rem;
+}
+
+.sial-featured-events_block .event-highlighted img {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  margin-top: 2.5rem;
+}
+
+.sial-featured-events_block .event-highlighted a {
+  display: block;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 0.2rem 1.2rem 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.2rem 1.2rem 0 rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  font-family: roboto, Arial, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  margin-top: 1.9rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sial-featured-events_block .event-highlighted a:hover, .sial-featured-events_block .event-highlighted a:active {
+  background-color: #000;
+  color: #fff;
+}

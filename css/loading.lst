@@ -11,4 +11,5 @@ modules/mobile-catalogue-social.css
 modules/mobile-exhibitor-searchform.css
 modules/mobile-events-list.css
 modules/mobile-events-event-details.css
+sial-featured-events-block.css
 modules/mobile-events-searchform-filter.css

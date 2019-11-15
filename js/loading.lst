@@ -20,4 +20,5 @@ modules/history.js
 modules/mobile-searchform-extended.js
 modules/mySelection.js
 modules/jqueryUI-core-widget-position-autocomplete-menu.js
+modules/sial-featured-events-block.js
 modules/mobile-events-searchform-filter.js
