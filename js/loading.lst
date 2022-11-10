@@ -1,6 +1,5 @@
 vendor/jquery/jquery.min.js
 vendor/hammerjs/hammer.min.js
-cookies-warning.min.js
 vendor/jquery.smartbanner/jquery.smartbanner.js
 init.mobile-smartbanner.js
 modules/_commons.js
